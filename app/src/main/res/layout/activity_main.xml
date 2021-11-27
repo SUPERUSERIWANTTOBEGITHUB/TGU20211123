@@ -6,15 +6,8 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
-    <Button
-        android:id="@+id/button2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Connect"
-        tools:layout_editor_absoluteX="247dp"
-        tools:layout_editor_absoluteY="398dp" />
-
     <TextView
+        android:id="@+id/hello_world_text_view"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Hello Kotlin and Android Studio!"
@@ -25,42 +18,11 @@
 
     <Button
         android:id="@+id/button"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="OK"
-        tools:layout_editor_absoluteX="49dp"
-        tools:layout_editor_absoluteY="398dp" />
+        android:layout_width="113dp"
+        android:layout_height="40dp"
+        android:text="PRESS"
+        tools:layout_editor_absoluteX="149dp"
+        tools:layout_editor_absoluteY="425dp" />
 
-    <CheckBox
-        android:id="@+id/checkBox"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="normal choice"
-        tools:layout_editor_absoluteX="49dp"
-        tools:layout_editor_absoluteY="545dp" />
-
-    <CheckBox
-        android:id="@+id/checkBox2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="great choice"
-        tools:layout_editor_absoluteX="49dp"
-        tools:layout_editor_absoluteY="472dp" />
-
-    <CheckBox
-        android:id="@+id/checkBox3"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="good choice"
-        tools:layout_editor_absoluteX="247dp"
-        tools:layout_editor_absoluteY="472dp" />
-
-    <CheckBox
-        android:id="@+id/checkBox4"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="middle choice"
-        tools:layout_editor_absoluteX="247dp"
-        tools:layout_editor_absoluteY="545dp" />
-// still comment
+    // still comment
 </androidx.constraintlayout.widget.ConstraintLayout>
